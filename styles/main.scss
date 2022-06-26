@@ -25,3 +25,110 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+.intro_section1 {
+    height: 100vh;
+    .logo {
+        position: absolute;
+        top: 87px;
+        left: 70px;
+        
+        img {
+            width: 100px;
+        }
+    }
+
+    .site_title {
+        position: absolute;
+        bottom: 70px;
+        left: 86px;
+        font-weight: 700;
+        font-size: 22px;
+        letter-spacing: -.55px;
+        z-index: 1;
+    }
+
+    .main_title {
+        font-size: 8vw;
+        font-family: 'NanumMyeongjo';
+        font-weight: 700;
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        margin-top: -10vw;
+        margin-left: -28vw;
+        width: 100%;
+    }
+
+    .sub_title {
+        font-size: 1.2vw;
+        font-weight: 500;
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+        margin-top: 10vw;
+        margin-left: -9vw;
+    }
+
+    .copyright {
+        position: absolute;
+        transform: rotate(90deg);
+        top: 290px;
+        right: -130px;
+        font-size: 22px;
+        letter-spacing: -0.5px;
+        font-weight: 700;
+    }
+}
+
+.sns_section {
+    position: fixed;
+    bottom: 60px;
+    right: 77px;
+    font-size: 20px;
+    z-index: 2;
+
+    .sns_deco {
+        display: inline-block;
+        width: 110px;
+        height: 3px;
+        background: #353535;
+        vertical-align: middle;
+        margin-top: -5px;
+        margin-right: 40px;
+    }
+
+    ul {
+        display: inline-block;
+
+        li {
+            font-weight: 700;
+            font-size: 22px;
+            display: inline-block;
+            margin-left: 40px;
+            vertical-align: middle;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
+
+.intro_section2 {
+    position: relative;
+    margin-top: -150px;
+    padding: 0 150px;
+    img {
+        width: 80%;
+    }
+
+    .img_deco_copy {
+        position: absolute;
+        top: 65%;
+        right: -10%;
+        font-size: 8vw;
+        font-weight: 700;
+
+    }
+}
