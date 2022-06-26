@@ -132,3 +132,55 @@ a {
 
     }
 }
+
+.intro_section3 {
+    padding: 300px 130px 400px;
+    overflow: hidden;
+    position: relative;
+    .sub_title {
+        font-size: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .main_title {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .section_desc {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #898989;
+        line-height: 34px;
+        font-weight: 400;
+    }
+
+    .career_list_section {
+        margin-top: 40px;
+        font-weight: 700;
+        font-size: 4.2vw;
+        color: #d5d5d5;
+        letter-spacing: 0;
+        line-height: 7vw;
+        position: relative;
+
+        .career_list_t {
+            position: relative;
+            z-index: 1;
+        }
+
+        .career_deco {
+            z-index: 0;
+            font-size: 50vw;
+            font-weight: 700;
+            position: absolute;
+            right: -10vw;
+            bottom: 0vw;
+            color: #3f3f3f;
+            letter-spacing: -3vw;
+        }
+    }
+
+    
+}
